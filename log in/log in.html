@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<title>用户登录</title>
+		<style>
+			<!--
+			.overall{background-color: #DFEBF5;/*总体样式*/
+					 height: 1000px;
+					 margin: 0 auto;}
+			.container{background-image: linear-gradient(to bottom,#9FA5D5,#E8F5C8);/*登录框总体样式*/
+					   text-align: center;
+					   font-family: "微软雅黑";
+					   font-size: 20px;
+					   border: solid #937DD3;
+					   margin: 0 auto;
+					   line-height: 1em;
+					   width: 800px;}
+			header{font-family: "微软雅黑";/*顶部设置*/
+				   font-size: 35px;
+				   text-align: left;
+				   background-color: #A1B2DB;}
+			.box{background-color: #F3E6FA;/*登录框样式*/
+				 border: solid #A6B2F5;
+				 height: 25px;}
+			.signIn{font-size: 25px;/*“登录”按钮设置*/
+					font-family: "微软雅黑";
+					background-color: #D0DBF0;}
+			.back{text-align: right;/*“返回首页”按钮设置*/
+				  font-size: 15px;
+				  font-family: "微软雅黑";}
+			a{text-decoration: none;}/*超链接去除下划线*/
+			-->
+		</style>
+	</head>
+	<body>
+			<header><i><b>用户登录</b></i></header><!--顶部网页说明-->
+		<div class="overall">
+					<br><br><br><br><br><br>
+			<div class="container">
+					<br><br><br>
+				<!--用户登录框-->
+				<form method="post">
+					<p>账号</p>
+					<input type="email" required placeholder="请输入电子邮箱地址" pattern="\w*qq.com" size="80" class="box">
+					<p>密码</p>
+					<input type="text" required placeholder="请输入密码" size="80" class="box">
+					<br><br>
+					<!--“是否记住”选项-->
+					<i>
+					<legend>记住此用户？</legend>
+					<input type="radio" id="yes" name="记住此账户？" value="yes">
+					<label for="yes">好的</label>
+					<br>
+					<input type="radio" id="no" name="记住此账户？" value="no">
+					<label for="no">不了</label>	
+					</i>
+					<br><br><br>
+					<!--“登录”按钮-->
+					<input type="submit" value="登录" class="signIn">
+					<br><br><br><br><br><br>
+					<!--“返回首页”超链接-->
+					<div class="back">
+					<a href="../index.html" target="_blank">返回首页</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<title>魅力四川</title><!--网站名-->
+		<style>
+			<!--
+			.overall{background-image: linear-gradient(to bottom,#9FA5D5,#E8F5C8);/*主页方框总体样式*/
+					 margin: auto;
+					 border-style: none;
+					 text-align: center;
+					 font-family: "微软雅黑";
+					 font-size: 25px;}
+			 nav{background-color: #A1B2DB;/*导航栏样式*/
+				 overflow: auto;}
+			.hypertext{text-decoration: none;/*导航栏中超链接样式*/
+					   font-family: "微软雅黑";
+					   font-size: 25px;
+					   float: left;
+					   background-color: #A1B2DB;
+					   color: #7B50D3;
+					   padding: 15px;}
+			.hypertext:hover{color: #9E5759}/*导航栏超链接放置鼠标变色*/
+			.articleText{text-indent: 2em;/*主页文字样式*/
+						 text-align: left;
+					     line-height: 1.5;
+						 letter-spacing: 1.5;
+						 color: #75557E;}
+			.webSection{text-align: center;/*主页下划部分样式*/
+						font-family: "微软雅黑";}
+			 footer{background-color: #AEE4EC;/*页脚样式*/
+				   font-family: "微软雅黑";
+				   text-align: center;
+				   font-size: 15px}
+			.button{float: right;/*“返回顶部”按钮样式*/
+					width: 35px;
+					height: 35px;
+					padding: 5px;
+					background-color: #9B74DB;}
+			.buttonHypertext{text-decoration: none;/*“返回顶部”按钮超链接样式*/
+							 text-align: center;
+							 font-size: 18px;
+							 color: #B85557}
+			.search{text-align: left;/*搜索框设置*/
+					text-indent: 5px;}
+			.searchButton{background-color: #D2E5F1;}/*"SEARCH"按钮样式*/
+			-->
+		</style>	
+	</head>
+	<body>
+			<header>
+				<!--导航栏-->
+				<nav id="top">
+					<!--导航栏超链接-->
+					<a class="hypertext" href="#">首页</a>
+					<a class="hypertext" href="history and culture/history.html" target="_blank">历史文化</a>
+					<a class="hypertext" href="natural scenery/natural scenery.html" target="_blank">自然风光</a>
+					<a class="hypertext" href="cultural attractions/cultural attractions.html" target="_blank">人文景观</a>     
+					<a class="hypertext" href="special food/special food.html" target="_blank">特色美食</a>
+					<a class="hypertext" href="https://baike.baidu.com/item/四川/212569?fr=aladdin
+					" target="_blank">了解更多</a>
+					<a class="hypertext" href="log in/log in.html" target="_blank">用户登录</a>
+				</nav>
+			</header>
+				<hr>
+	   <div class="overall">
+		    <!--搜索框-->
+		    <div class="search">
+			    <form method="get">
+			   		 <input type="search" name="search" placeholder="Search" required size="50" maxlength="32">
+				   	 <input type="submit" value="SEARCH" class="searchButton">
+			    </form>
+		    </div>
+		    <!--主页大图展示-->
+			<article>
+				<img src="img/homepage.jpg" alt="魅力四川" width="1500px">
+				<p class="articleText">四川省简称川或蜀，地处中国大西南，肥沃的土地，拥有丰富的自然和人文资源，同时，壮美的自然风景和悠久和绚烂多彩的历史与文化也让四川更加有魅力。</p><!--介绍文字-->
+			</article>
+				<hr>
+				<br>
+		   	<!--主页下划部分-->
+			<section class="webSection"><!--图片超链接-->
+				<a href="natural scenery/natural scenery.html" title="to自然风光" target="_blank"><img src="img/sightseeing.jpg" alt="to自然风光" width="500px" height="360px"></a>
+				<figcaption>美丽风光</figcaption>
+				<br>
+				<a href="special food/special food.html" title="to特色美食" target="_blank"><img src="img/food.jpg" alt="to特色美食" width="500px" height="360px">
+				</a>
+				<figcaption>四川美食</figcaption>
+				<br>
+				<a href="cultural attractions/cultural attractions.html" title="to人文景观" target="_blank"><img src="img/cultural attractions.jpg" alt="to人文景观" width="500px" height="360px">
+				</a>
+				<figcaption>历史人文</figcaption>
+			</section>
+				<br>
+			<div class="button">
+				<a class="buttonHypertext" href="#top">TOP</a><!--“返回顶部”按钮-->
+			</div>
+				<br>
+				<br>
+		   		<hr>
+			<footer><!--页脚部分-->
+				此网页图片来自百度
+				<br>
+				如有疑问请联系<a href="mailto:1181967416@qq.com">我</a>	   
+		   </footer>
+		</div>
+	</body>
+</html>
